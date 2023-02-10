@@ -94,6 +94,26 @@ form .user-details .input-box {
   color: #594a4e;
 }
 
+#conf-details {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #594a4e;
+}
+
+#password2 {
+  height: 35px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 13px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  color: #594a4e;
+  margin-left: 13px;
+}
 .user-details .input-box #address input {
   height: 35px;
   width: 100%;
@@ -230,12 +250,4 @@ form .button input {
     min-width: 120px;
     padding: 0 25px;
   }
-}
-
-.fa-eye {
-  position: absolute;
-  bottom: 277px;
-  left: 720px;
-  color: lightgray;
-  cursor: pointer;
 }
