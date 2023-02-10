@@ -231,3 +231,11 @@ form .button input {
     padding: 0 25px;
   }
 }
+
+.fa-eye {
+  position: absolute;
+  bottom: 277px;
+  left: 720px;
+  color: lightgray;
+  cursor: pointer;
+}
