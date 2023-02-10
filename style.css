@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Domine:wght@600&family=Libre+Baskerville:wght@700&family=Patua+One&family=Poppins&family=Source+Sans+Pro&family=Space+Grotesk:wght@500;600&family=Spline+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #faeee7;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background-color: #ffc6c7;
+  padding: 25px 30px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.container .title {
+  font-size: 30px;
+  font-weight: Bolder;
+  text-align: center;
+  font-family: "Domine";
+  position: relative;
+  color: #33272a;
+}
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 10px;
+  width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #594a4e;
+}
+
+.user-details .gender-details .gender-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  position: relative;
+  color: #594a4e;
+}
+
+.user-details .bloodtype-details .bloodtype-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-right: 200px;
+  color: #594a4e;
+  position: relative;
+}
+
+.bloodtype-details .category select {
+  width: 100%;
+  height: 35px;
+  color: #594a4e;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 13px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input {
+  height: 35px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 13px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  color: #594a4e;
+}
+
+.user-details .input-box #address input {
+  height: 35px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 13px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+#address {
+  height: 60px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 13px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  color: #594a4e;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #a54f63;
+}
+
+input[type="radio"] {
+  margin: 0 5px 0 5px;
+}
+
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ff8ba7;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.tacbox {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.tacbox a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0000ee;
+}
+
+.log-in {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #5f595b;
+}
+.log-in a {
+  text-decoration: none;
+}
+
+form .button {
+  height: 35px;
+  margin: 45px 0;
+}
+
+form .button input {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 16px;
+  background-color: #ff8ba7;
+  color: #33272a;
+  font-weight: bolder;
+}
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

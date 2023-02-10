@@ -1,10 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
     <head>
+        <meta charset="UTF-8">
         <title>
-            Registration Form
+            Registration Form by Niza
         </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <div class="title">Account Registration</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details"> First Name</span>
+                        <input type="text" placeholder=" &#xf007;  First Name" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Last Name</span>
+                        <input type="text" placeholder=" &#xf007;  Last Name" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Username</span>
+                        <input type="text" placeholder=" &#xf007;   Username" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Email</span>
+                        <input type="email" placeholder=" &#x2709; Enter your Email" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Contact Number</span>
+                        <input type="text" placeholder=" &#x260e;  Contact Number" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Date of Birth</span>
+                        <input type="date" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Home Address</span>
+                        <input type="text" id="address" placeholder="  &#xf124;  Home Address" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Place of Birth</span>
+                        <input type="text" id="address" placeholder=" &#xf0f8;  Place of Birth" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Password</span>
+                        <input type="text" placeholder=" &#xf023;  Password" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Confirm Password</span>
+                        <input type="text" placeholder=" &#xf023;  Confirm Password" style="font-family: FontAwesome, Poppins; font-style: normal" required>
+                    </div>
+                    <div class="gender-details">
+                        <span class="gender-title"> Sex</span>
+                        <div class="category">
+                            <input type="radio" name="sex" required>
+                            <label for="Male">Male</label>
+                            <input type="radio" name="sex" required>
+                            <label for="Female">Female</label>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="bloodtype-details">
+                        <span class="bloodtype-title"> Blood Type</span>
+                        <div class="category">
+                            <select id="blood-type" name="blood-type">
+                                <option>[Select Blood Type]</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>AB</option>
+                                <option>O</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="tacbox">
+                        <input id="checkbox" type="checkbox">
+                        <label for="checkbox">
+                            I have read and agree to the website
+                            <a href="#">Terms and Conditions</a>
+                            .
+                        </label>
+                    </div>
+                </div>
+                <button class="button-74" role="button">Register</button>
+            </form>
+            <div class="log-in">
+                <p>
+                    Already have an account?
+                    <a href="#">Login</a>
+                </p>
+            </div>
+        </div>
+    </body>
     <footer></footer>
 </html>
